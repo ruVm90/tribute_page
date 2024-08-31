@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(rgba(81, 120, 55, 0.7),rgba(76, 122, 29, 0.7)), url("https://i0.wp.com/xn--lacompaialibredebraavos-yhc.com/wp-content/uploads/2018/05/maxresdefault.jpg?fit=1920%2C1080&ssl=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:rgba(247, 247, 238, 0.982);
+    font-weight: bold;
+    
+}
+.header{
+    text-align: center;
+    font-style: italic;
+    
+    padding: 0;
+    margin: 10px 0;   
+}
+#title{
+    font-size: 60px; 
+    margin: 5px auto;   
+}
+#subtitle{
+    font-size: 40px;
+    margin: 5px auto;
+}
+
+#image{
+    max-width: 500px;
+    max-height: 800px;
+    box-shadow: 0 0 30px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   
+}
+#tribute-info {
+    font-size: 20px;
+    line-height: 1.6rem;/*espacio entre lineas*/
+    text-align: left;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: auto;
+    padding: 30px;
+    
+}
+#img-div {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+#img-caption {
+    font-style: italic;
+    max-width: 450px;
+    text-align: left;   
+}
+#tribute-info > p {
+    margin: 10px 5px;  
+}
+#tribute-info > h3 {
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+.div-sentence{
+    font-style: italic;
+}
